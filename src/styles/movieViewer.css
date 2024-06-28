@@ -1,0 +1,119 @@
+.itemTitle {
+    width: 100%;
+    font-size: 50px;
+    color: var(--fontColor);
+}
+
+.item__info {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    color: var(--fontColor);
+    border-bottom: 1px solid var(--color1);
+    padding-bottom: 20px;
+}
+
+.item__info-img {
+    width: 300px;
+    height: 390px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 10px var(--color4);
+}
+
+.item__info-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 90%;
+}
+
+.item__info-details-specificDetail {
+    font-size: 15px;
+}
+
+.item__info-details-specificDetail span {
+    font-weight: bold;
+}
+
+.item__info-details-synopsis {
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+.item__info-details-platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.platfomrs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.platform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    width: 90px;
+    height: 90px;
+}
+
+.platform__name {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.trailerContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 1px solid var(--color1);
+    padding-bottom: 50px;
+}
+
+.trailer__video {
+    width: 50%;
+    border-radius: 1rem;
+    background: transparent;
+}
+
+.relatedContendContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin: 0 auto;
+}
+
+.relatedContentCards {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.back__arrow:hover {
+    box-shadow: 0 0 1rem var(--color1);
+}
+
+.back__arrow {
+    position: fixed;
+    top: 80px;
+    left: 10px;
+    transition: all .2s ease-in;
+    border: 1px solid var(--color1);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9;
+}

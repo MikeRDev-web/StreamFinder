@@ -1,0 +1,145 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 9%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    gap: 0.5rem;
+}
+
+.navbar__opt {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--fontColor);
+    padding: 5px;
+    border-radius: 0.5rem;
+    transition: transform 0.1s; 
+}
+    
+.navbar__opt:hover {
+    transform: translate(10px);
+    outline: 2px solid var(--color1);
+}
+
+.navbar__opt-selected {
+    transform: translate(10px);
+    outline: 2px solid var(--color1);
+}
+
+.navbar__opt-ico {
+    width: 25px;
+    height: 25px;
+}
+
+.navbar__platfomrs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.platformsTitle {
+    font-size: 25px;
+    border-bottom: 1px solid var(--fontColor);
+    width: 100%;
+    padding-bottom: 3px;
+    color: var(--fontColor);
+}
+
+.gendersTitle {
+    font-size: 25px;
+    border-bottom: 1px solid var(--fontColor);
+    width: 100%;
+    padding-bottom: 3px;
+    color: var(--fontColor);
+}
+
+.platforms {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.platforms__btn {
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    transition: transform 0.1s, outline 0.1s; 
+    will-change: transform; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platforms__btn:hover {
+    transform: scale(1.1);
+    background-color: var(--color1);
+}
+
+.platforms__btn-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.genders {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gender_btn {
+    text-decoration: none;
+    color: var(--fontColor);
+    font-size: 23px;
+    transition: transform 0.1s; 
+    will-change: transform; 
+    padding: 5px;
+    border-radius: 0.5rem;
+}
+
+.gender_btn:hover {
+    transform: translate(10px);
+    outline: 2px solid var(--color1);
+}
+
+.navbar__genders {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.navbar__platforms-selected {
+    transform: scale(1.1);
+    background-color: var(--color1);
+}
+
+.deleteFilters {
+    display: none;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--fontColor);
+    width: 90%;
+    border-bottom: 1px solid var(--color1);
+    margin-bottom: 1rem;
+    justify-content: center;
+    padding-bottom: 0.5rem;
+}
+
+.deleteFilters__ico {
+    transform: scaleX(-1);
+    transition: all .2s ease-in-out;
+}

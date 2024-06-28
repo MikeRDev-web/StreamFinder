@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+    --color1: #C320E0;
+    --color2: #C421E3;
+    --color3: #372939;
+    --color4: #370f55;
+    --backgroundColor: #171118;
+    --backgroundColorAlternative: #0d0d0d59;
+    --fontColor: #ffffff;
+    --fontColorNegative: #000000;
+    --songCardBackground: #0d0d0dbd;
+}
+
+body {
+    background-color: var(--backgroundColor);
+}
+
+/* Scrollbar container */
+::-webkit-scrollbar {
+    width: 12px; /* Ancho del scrollbar */
+    background-color: var(--backgroundColor); /* Color de fondo del scrollbar */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: var(--backgroundColor); /* Color del track */
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: var(--color3); /* Color de la manija */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Scrollbar handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color4); /* Color de la manija al pasar el mouse */
+}
+
+main {
+    position: absolute;
+    z-index: 8;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 70px auto;
+    right: 0px;
+}
+
+.e404__container {
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    color: var(--fontColor);
+}
+
+.e404__text {
+    font-size: 50px;
+    color: var(--fontColor);
+}
+
+.e404__icon {
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--color2);
+    border-radius: 1rem;
+}
+
+.IGGM {
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    color: var(--fontColor);
+}
+
+.specialMain {
+    position: relative;
+    z-index: 8;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 70px auto;
+}
+
+.specialMain2 {
+    position: relative;
+    z-index: 8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin: 70px auto;
+}
+
+.notValideSearch {
+    color: var(--fontColor);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+}
