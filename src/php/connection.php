@@ -1,9 +1,9 @@
 <?php
 
 $host = 'localhost';
-$dbname = 'streamfinder';
-$username = 'mike';
-$password = 'mangeL.123';
+$dbname = '***';
+$username = '***';
+$password = '***';
 
 try {
     $connect = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
